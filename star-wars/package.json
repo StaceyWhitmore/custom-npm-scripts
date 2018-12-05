@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "star-wars": "telnet towel.blinkenlights.nl"
+  }
+}
