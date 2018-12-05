@@ -9,3 +9,4 @@ Some good links to helpful articles on writing custom npm scripts:
 * [Setting up minification](https://gist.github.com/gaearon/42a2ffa41b8319948f9be4076286e1f3)
 * an [npm-build-boilerplate](https://github.com/damonbauer/npm-build-boilerplate/blob/master/package.json) project with all of these tasks that you can use as a starting point.
 created by Damon Bauer
+* [https://docs.npmjs.com/misc/scripts](https://docs.npmjs.com/misc/scripts)
