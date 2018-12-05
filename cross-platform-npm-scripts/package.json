@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "ello": "echo 'ello'"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

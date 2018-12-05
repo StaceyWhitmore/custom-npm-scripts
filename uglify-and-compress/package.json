@@ -1,0 +1,10 @@
+{
+  "name": "uglify-and-compress",
+  "version": "1.0.0",
+  "scripts": {
+    "uglify": "mkdir -p dist/js &amp;&amp; uglifyjs src/js/*.js -m -o dist/js/app.js &amp;&amp; uglifyjs src/js/*.js -m -c -o dist/js/app.min.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.4.9"
+  }
+}

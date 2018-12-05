@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "uglify": "mkdir -p dist/js && uglifyjs src/js/*.js -m -o dist/js/app.js",
+
+  }
+}

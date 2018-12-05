@@ -1,0 +1,11 @@
+{
+  "name": "clean-build-dist",
+  "description": "clean--cleans out a the dist directory and builds it over again. build--runs clean
+  then does a rebuild with webpack",
+    "version": "1.0.0",
+    "scripts": {
+      "clean": "rm -r dist && mkdir dist",
+      "build": "npm run clean && webpaclk"
+    }
+
+}

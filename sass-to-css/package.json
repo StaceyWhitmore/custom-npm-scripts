@@ -1,0 +1,16 @@
+{
+  "name": "sass to css",
+  "description": "compiles Scss to CSS and automatically adds vendor prefixes using Autoprefixer & PostCSS",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "scss-options": "node-sass --output-style nested --indent-type tab --indent-width 4 -o dist/css src/scss",
+    "autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '&gt; 5%, ie 9' -r dist/css/*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "eslint": "^5.9.0",
+    "node-sass": "^4.10.0",
+    "postcss-cli": "^6.0.1"
+  }
+}

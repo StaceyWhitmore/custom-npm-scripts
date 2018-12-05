@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "bash-hello": "bash hello.sh"
+  }
+}

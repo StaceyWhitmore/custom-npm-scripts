@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "js-add": "node add.js"
+  }
+}

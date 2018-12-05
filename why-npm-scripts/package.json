@@ -1,0 +1,16 @@
+{
+  "name": "npm-build-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "node-sass --ouput-style compressed -o dist/css src/stylesheets",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "uglify": "mkdir -p dist/js &amp;&amp; uglifyjs src/js/*.js -m -o dist/js/app.js &amp;&amp; uglifyjs src/js/*.js -m -c -o dist/js/app.min.js"
+
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "eslint": "^5.9.0",
+    "node-sass": "^4.10.0",
+    "postcss-cli": "^6.0.1"
+  }
+}

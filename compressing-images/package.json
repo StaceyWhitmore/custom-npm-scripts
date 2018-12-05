@@ -1,0 +1,11 @@
+{
+  "name": "image compressor",
+  "description": "compresses images",
+  "version": "1.0.0",
+  "scripts": {
+    "imagemin": "imagemin src/images dist/images -p"
+  },
+  "devDependencies": {
+    "imagemin-cli": "^4.0.0",
+  }
+}

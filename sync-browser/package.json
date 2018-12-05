@@ -1,0 +1,11 @@
+{
+  "name": "sync-browser",
+  "description": "serve and inject changes with browser-sync start a local server, automatically inject updated files into any connected browser, and sync clicks & scrolls between browsers",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "browser-sync start --server --files 'dist/css/*.css, dist/js/*.js'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}

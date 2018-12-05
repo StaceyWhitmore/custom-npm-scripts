@@ -1,0 +1,12 @@
+{
+  "name": "svg-sprites",
+  "description": "automate the process of combining and spriting your SVGs to make a single SVG file",
+  "version": "1.0.0",
+  "scripts": {
+    "icons": "svgo -f src/images/icons &amp;&amp; mkdir -p dist/images && svg-sprite-generate -d src/images/icons -o dist/images/icons.svg"
+  },
+  "devDependencies": {
+    "svg-sprite-generator": "0.0.7",
+    "svgo": "^1.1.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "hello-world": "echo 'Hello World!'",
+    "prehello-world": "echo 'I run Before hello-world'",
+    "posthello-world": "echo 'I run After hello-world'"
+  }
+}

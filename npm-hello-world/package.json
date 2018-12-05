@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+    "version": "1.0.0",
+    "scripts": {
+    "start": "node index.js",
+    "say-hello": "echo 'Hello World!'",
+    "awesome-npm": "npm run say-hello && echo 'echo NPM is awesome!'"
+    }
+
+}
